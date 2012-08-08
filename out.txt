@@ -1,0 +1,198 @@
+    1  halt
+    2  cd /etc/yum.repos.d
+    3  ls -l
+    4  wget http://mirror.teslamotors.com/yum.repos.d/epel-testing.repo
+    5  wget http://mirror.teslamotors.com/yum.repos.d/epel.repo
+    6  vi /etc/yum.repos.d/EnterpriseLinux-Base.repo
+    7  vi /etc/yum.repos.d/EnterpriseLinux-Base.repo
+    8  vi /etc/yum.repos.d/EnterpriseLinux-Base.repo
+    9  yum --enablerepo=epel-testing install puppet ruby-rdoc
+   10  date
+   11  vi /etc/sysconfig/puppet  
+   12  puppet agent --test --noop --waitforcert 60
+   13  vim 
+   14  vim /boot/grub/grub.conf 
+   15  vi /boot/grub/grub.conf 
+   16  reboot
+   17  exit
+   18  uname -a
+   19  rpm -qa | egrep kerlen
+   20  rpm -qa | egrep kernel
+   21  rpm -qa | egrep uek
+   22  rpm -qi kernel-uek-firmware
+   23  rpm -ve kernel-uek kernel-uek-firmware
+   24  rpm -qi oracle-linux
+   25  vi /boot/grub/grub.conf
+   26  cd /etc/yum.repos.d/
+   27  ls -l
+   28  puppet
+   29  puppet agent --test
+   30  rpm -qa | egrep -i vmware
+   31  /etc/init.d/vmware-tools stop
+   32  /etc/init.d/vmware-tools start
+   33  ls -l
+   34  cat vmware-tools.repo 
+   35  halt
+   36  exit
+   37  ps -ef
+   38  ifconfig
+   39  lsmod
+   40  lsmod | egrep vm
+   41  lspci
+   42  lsmod | egrep vm
+   43  cd /etc/sysconfig/network-scripts/
+   44  ls -ld ifcfg*
+   45  cat ifcfg-eth0.bak 
+   46  cp ifcfg-eth0.bak ifcfg-eth0
+   47  vi ifcfg-eth0
+   48  ls -l
+   49  cd /etc/udev/
+   50  ls -l
+   51  cd fules
+   52  cd rules.d/
+   53  ls -l
+   54  egrep eth0
+   55  egrep eth0 *
+   56  halt
+   57  ps -ef
+   58  cat /etc/sysconfig/network-scripts/
+   59  cat /etc/sysconfig/network-scripts/ifcfg-eth0
+   60  cat /sys/bus/scsi/devices/*/timeout
+   61  rm -f /etc/ssh/ssh_host*_key*
+   62  find /var/lib/puppet -xdev -type f -exec /bin/rm -f {} \;
+   63  halt
+   64  exit
+   65  vi /etc/sysconfig/network
+   66  vi /etc/sysconfig/network-scripts/ifcfg-eth0
+   67  vi /etc/sysconfig/network-scripts/ifcfg-eth0
+   68  vi /etc/hosts
+   69  vi /etc/resolv.conf 
+   70  df -h .
+   71  fdisk -u /dev/sda3
+   72  fdisk -u /dev/sda
+   73  reboot
+   74  df -hj
+   75  df -h
+   76  sudo /sbin/resize2fs /dev/sda3
+   77  df -h
+   78  date
+   79  vi /etc/sysconfig/puppet 
+   80  ps -ef | egrep pup
+   81  rpm -qa | egrep -i vm
+   82  puppet agent --test --waitforcert 60
+   83  puppet agent --test --waitforcert 60
+   84  puppet agent --test --waitforcert 60
+   85  puppet agent --test --waitforcert 60
+   86  halt
+   87  exit
+   88  service puppet stop
+   89  visudo
+   90  exit
+   91  yum list available |grep -i pecl
+   92  rpm -qa |grep -i pecl
+   93  yum install php-pecl-http
+   94  more /etc/redhat-release 
+   95  cd
+   96  wget pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el5.rf.x86_64.rpm
+   97  rpm -ivh rpmforge-release-0.5.2-2.el5.rf.x86_64.rpm 
+   98  yum install php-pecl-http
+   99  grep jeg /etc/passwd
+  100  more /etc/httpd/conf.d/production.conf 
+  101  cd /etc/
+  102  vim php.ini 
+  103  service httpd restart
+  104  hostname
+  105  service puppet status
+  106  cd /etc/httpd/conf.d/
+  107  vim production
+  108  vim production.conf 
+  109  service httpd restart
+  110  vim production.conf 
+  111  service httpd restart
+  112  rpm -qa |grep -i pecl
+  113  rpm -ql php-pecl-http-1.6.5-2.el5.rf
+  114  vim /etc/php.ini 
+  115  vim /etc/php.ini 
+  116  vim /etc/php.ini 
+  117  service httpd restart
+  118  tail /var/log/httpd/php.log
+  119  tail -100 /var/log/httpd/php.log|more
+  120  date
+  121  tail  /var/log/httpd/php.log
+  122  cd /var/www/
+  123  ls
+  124  cd stargate_drupal
+  125  ls
+  126  ll
+  127  cd current/
+  128  ls
+  129  vim pt12.php
+  130  mv pt12.php /root/
+  131  cd /etc/httpd/conf
+  132  ls
+  133  vim httpd.conf 
+  134  cd ../conf.d/
+  135  ls
+  136  vim production.conf 
+  137  pwd
+  138  cd /var/www/html/
+  139  ls
+  140  cp /root/pt12.php .
+  141  ip addr show
+  142  vim /etc/php.ini 
+  143  service httpd restart
+  144  tail -f /var/log/httpd/php.log
+  145  rpm -qa |grep -i pecl
+  146  rpm -qa |grep -i php
+  147  php -v
+  148  rpm -qi php-pecl-http-1.6.5-2.el5.rf
+  149  rpm -ql php-pecl-http
+  150  vim /etc/php.d/http.ini
+  151  hostname
+  152  vim /etc/php.d/http.ini
+  153  vim /etc/php.ini 
+  154  hostname
+  155  service httpd restart
+  156  service httpd restart
+  157  tail -f /var/log/httpd/php.log
+  158  exit
+  159  tail -f /var/log/httpd/php.log
+  160  rpm -qa |grep -i pecl
+  161  rpm -e php-pecl-http-1.6.5-2.el5.rf
+  162  rpm -qa |grep -i pecl
+  163  yum list |grep -i pecl
+  164  yum grouplist
+  165  yum groupinstall "Development Tools"
+  166  vim /etc/yum.repos.d/
+  167  vim /etc/yum.conf 
+  168  yum groupinstall "Development Tools"
+  169  yum install gcc
+  170  pecl install pecl_http
+  171  yum install php-devel
+  172  pecl install pecl_http
+  173  yum install zlib
+  174  yum install zlib-devel
+  175  pecl install pecl_http
+  176  yum install curl-devel
+  177  pecl install pecl_http
+  178  vim /etc/php.ini 
+  179  service httpd restart 
+  180  clear
+  181  lcoate php.ini
+  182  locate php.ini
+  183  cp /etc/php.ini /etc/php.ini.bak
+  184  vi /etc/php.ini
+  185  cd /etc/
+  186  ls -ltr php.ini
+  187  /usr/bin/pecl install pecl_http
+  188  exit 
+  189  df -h
+  190  cd /
+  191  ll
+  192  cd /var/
+  193  ls
+  194  ll
+  195  cd www/
+  196  ll
+  197  pwd
+  198  history >/tmp/out.txt
